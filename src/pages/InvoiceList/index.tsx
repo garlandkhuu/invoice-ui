@@ -1,17 +1,8 @@
-import { useEffect, useState } from "react";
-import { Invoice } from "../../ts/interfaces/invoice.interfaces";
+import useInvoices from '../../hooks/useInvoices';
 import './InvoiceList.css'
 
 function InvoiceList() {
-  const [invoices, setInvoices] = useState<Array<Invoice>>([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3004/invoices")
-      .then((res) => res.json())
-      .then((result) => {
-        setInvoices(result);
-      });
-  }, []);
+  const { invoices } = useInvoices();
 
   return (
     <div className="invoice-list" style={{ margin: "auto" }}>
