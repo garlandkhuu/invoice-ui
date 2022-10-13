@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
+import { Invoice } from "../../ts/interfaces/invoice.interfaces";
 import './InvoiceList.css'
 
 function InvoiceList() {
-  const [invoices, setInvoices] = useState<any>([]);
+  const [invoices, setInvoices] = useState<Array<Invoice>>([]);
 
   useEffect(() => {
     fetch("http://localhost:3004/invoices")
