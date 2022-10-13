@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import InvoiceList from "./pages/InvoiceList";
 import InvoiceDetails from "./pages/InvoiceDetails";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

@@ -1,5 +1,6 @@
 import useInvoices from '../../hooks/useInvoices';
-import './InvoiceList.css'
+import InvoiceListItem from './components/InvoiceListItem';
+import './InvoiceList.scss'
 
 function InvoiceList() {
   const { invoices } = useInvoices();
@@ -7,11 +8,9 @@ function InvoiceList() {
   return (
     <div className="invoice-list" style={{ margin: "auto" }}>
       <div className="invoice-heading-1">Invoices</div>
-      <ul className="invoice-list-item">
+      <ul className="invoice-list-items">
         {invoices.map((invoice: any) => (
-          <li key={invoice.id}>
-            <div>{invoice.invoiceNumber}</div> <div>{invoice.status}</div>
-          </li>
+          <InvoiceListItem invoice={invoice} />
         ))}
       </ul>
     </div>
