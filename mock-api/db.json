@@ -1,0 +1,593 @@
+{
+  "invoices": [
+    {
+      "taxAmount": 0.015,
+      "region": "NZ",
+      "id": "d71811ce-7297-52cd-a340-78a098612064",
+      "invoiceNumber": "INV-0",
+      "lineItems": [
+        {
+          "lineItemId": "72222c35-daf0-5572-9145-ac6762ff492d",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 0.1,
+          "lineItemTotalCost": 0.1
+        }
+      ],
+      "status": "PAID",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 0.165,
+      "region": "NZ",
+      "id": "7d371b98-d0ce-507a-b041-224185a94b13",
+      "invoiceNumber": "INV-1",
+      "lineItems": [
+        {
+          "lineItemId": "d6db702e-8bd0-516e-8ef3-d4ec056404d0",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 1.1,
+          "lineItemTotalCost": 1.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 0.46499999999999997,
+      "region": "NZ",
+      "id": "da99f3f1-671c-5874-a6f0-6b4b9e59c0ca",
+      "invoiceNumber": "INV-3",
+      "lineItems": [
+        {
+          "lineItemId": "b1b69d5f-45c3-505c-86be-64523b9427fb",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 3.1,
+          "lineItemTotalCost": 3.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 0.6149999999999999,
+      "region": "NZ",
+      "id": "6a3caf3f-b2e6-515e-bb15-1324e0fae707",
+      "invoiceNumber": "INV-4",
+      "lineItems": [
+        {
+          "lineItemId": "4cbe1d92-d75e-5c89-bfdc-1ca50e4ce0c6",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 4.1,
+          "lineItemTotalCost": 4.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 0.9149999999999999,
+      "region": "NZ",
+      "id": "f50cfacc-a7e7-5b1b-8811-4a38ed04a6a5",
+      "invoiceNumber": "INV-6",
+      "lineItems": [
+        {
+          "lineItemId": "49dd9e50-b7d1-5c5d-ae7e-fc215b629497",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 6.1,
+          "lineItemTotalCost": 6.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.365,
+      "region": "NZ",
+      "id": "da716d7a-62b7-5251-a9d8-b4c16dedc167",
+      "invoiceNumber": "INV-9",
+      "lineItems": [
+        {
+          "lineItemId": "45ba6903-8cf4-5fe3-acc1-ab334585d88e",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 9.1,
+          "lineItemTotalCost": 9.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 0.315,
+      "region": "NZ",
+      "id": "1678bda7-5de9-572d-898b-9c27c719d446",
+      "invoiceNumber": "INV-2",
+      "lineItems": [
+        {
+          "lineItemId": "1bf47847-1988-580b-9138-503bee37cd07",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 2.1,
+          "lineItemTotalCost": 2.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.2149999999999999,
+      "region": "NZ",
+      "id": "8b31ba8b-0b52-5d48-94f1-1ff6aa35e3bc",
+      "invoiceNumber": "INV-8",
+      "lineItems": [
+        {
+          "lineItemId": "b85a1cb8-19a1-525c-a961-c876da512f6b",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 8.1,
+          "lineItemTotalCost": 8.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.6649999999999998,
+      "region": "NZ",
+      "id": "69ea8b27-196b-52ae-917e-b96f2b4d6313",
+      "invoiceNumber": "INV-11",
+      "lineItems": [
+        {
+          "lineItemId": "c8676946-1925-5721-aff3-80df947af687",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 11.1,
+          "lineItemTotalCost": 11.1
+        }
+      ],
+      "status": "PAID",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 0.7649999999999999,
+      "region": "NZ",
+      "id": "7598146b-b20f-5bc8-84d3-09cd822f5b45",
+      "invoiceNumber": "INV-5",
+      "lineItems": [
+        {
+          "lineItemId": "dda95317-2597-5f98-aab0-e13b486afae8",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 5.1,
+          "lineItemTotalCost": 5.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.065,
+      "region": "NZ",
+      "id": "f50cb8cc-f351-5db1-9652-8d037c929942",
+      "invoiceNumber": "INV-7",
+      "lineItems": [
+        {
+          "lineItemId": "10123730-9d79-5554-9f58-86a6f1b085bc",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 7.1,
+          "lineItemTotalCost": 7.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 2.2649999999999997,
+      "region": "NZ",
+      "id": "be00be9d-9b8e-5570-9dbb-434969406abc",
+      "invoiceNumber": "INV-15",
+      "lineItems": [
+        {
+          "lineItemId": "41ecbe14-cf6b-57ab-9592-ebc63e4a1da0",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 15.1,
+          "lineItemTotalCost": 15.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.515,
+      "region": "NZ",
+      "id": "9d262e46-69d1-5725-a9ae-8d72faeff9a8",
+      "invoiceNumber": "INV-10",
+      "lineItems": [
+        {
+          "lineItemId": "8fb47acb-5eb2-5b2e-94d7-c1419b5dbac9",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 10.1,
+          "lineItemTotalCost": 10.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.815,
+      "region": "NZ",
+      "id": "f291c6aa-eda5-51da-9e61-21dbdb188714",
+      "invoiceNumber": "INV-12",
+      "lineItems": [
+        {
+          "lineItemId": "aaedeff7-2c51-5521-b521-19bbd746a21a",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 12.1,
+          "lineItemTotalCost": 12.1
+        }
+      ],
+      "status": "PAID",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 2.1149999999999998,
+      "region": "NZ",
+      "id": "9058a45b-2227-525f-9773-01f6cfc1ec5a",
+      "invoiceNumber": "INV-14",
+      "lineItems": [
+        {
+          "lineItemId": "0725fcc4-7025-5fce-9c2b-08b3d7679443",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 14.1,
+          "lineItemTotalCost": 14.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 2.565,
+      "region": "NZ",
+      "id": "5b73d11a-3a61-590a-b763-3367ded19387",
+      "invoiceNumber": "INV-17",
+      "lineItems": [
+        {
+          "lineItemId": "7d561971-6707-5953-bbdd-619c62f79503",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 17.1,
+          "lineItemTotalCost": 17.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 1.9649999999999999,
+      "region": "NZ",
+      "id": "c4fa427a-a5dc-5a04-8310-95f654844c23",
+      "invoiceNumber": "INV-13",
+      "lineItems": [
+        {
+          "lineItemId": "3465278a-3357-55bc-ae8e-e3366b4a4d1a",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 13.1,
+          "lineItemTotalCost": 13.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.165,
+      "region": "NZ",
+      "id": "e9fee50e-084f-510d-85a2-85fe2325e555",
+      "invoiceNumber": "INV-21",
+      "lineItems": [
+        {
+          "lineItemId": "47f5bcdc-4ae0-5f73-a9fa-e34638dc22e5",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 21.1,
+          "lineItemTotalCost": 21.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 2.415,
+      "region": "NZ",
+      "id": "9eb8cbb2-01c3-5a67-b1a2-ba471aa37a72",
+      "invoiceNumber": "INV-16",
+      "lineItems": [
+        {
+          "lineItemId": "bf477f2b-4127-51a3-ad7a-178a12262af5",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 16.1,
+          "lineItemTotalCost": 16.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 2.7150000000000003,
+      "region": "NZ",
+      "id": "a2b489f3-ebff-5169-a7f9-cc7ddc2063f7",
+      "invoiceNumber": "INV-18",
+      "lineItems": [
+        {
+          "lineItemId": "29d9e828-1d7c-5206-99ac-2bca71872eaa",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 18.1,
+          "lineItemTotalCost": 18.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.015,
+      "region": "NZ",
+      "id": "533b455e-bf21-5be3-9aa1-fae11ebdeaf2",
+      "invoiceNumber": "INV-20",
+      "lineItems": [
+        {
+          "lineItemId": "149e09eb-57a3-5db9-8585-a1868602432b",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 20.1,
+          "lineItemTotalCost": 20.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.4650000000000003,
+      "region": "NZ",
+      "id": "4ee71247-4f46-5d9e-bb4b-dcdf5061a7bd",
+      "invoiceNumber": "INV-23",
+      "lineItems": [
+        {
+          "lineItemId": "8d799fda-d173-5f8f-8c5f-4323799618d2",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 23.1,
+          "lineItemTotalCost": 23.1
+        }
+      ],
+      "status": "PAID",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 2.865,
+      "region": "NZ",
+      "id": "cfc2e628-26e5-5278-b37d-fdbfcc800b09",
+      "invoiceNumber": "INV-19",
+      "lineItems": [
+        {
+          "lineItemId": "b87a4828-85ec-5312-b073-04633adac73c",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 19.1,
+          "lineItemTotalCost": 19.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 4.065,
+      "region": "NZ",
+      "id": "1d257d6d-5ddf-5ae4-826a-1284e1e31477",
+      "invoiceNumber": "INV-27",
+      "lineItems": [
+        {
+          "lineItemId": "4c5437a1-bcd0-547e-bc70-561e25998b1b",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 27.1,
+          "lineItemTotalCost": 27.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.315,
+      "region": "NZ",
+      "id": "49313efc-c639-52ce-bf02-9bbb610fe4fb",
+      "invoiceNumber": "INV-22",
+      "lineItems": [
+        {
+          "lineItemId": "599cccd8-fae1-5a1b-9252-ecf824182262",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 22.1,
+          "lineItemTotalCost": 22.1
+        }
+      ],
+      "status": "PAID",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.615,
+      "region": "NZ",
+      "id": "0d1c88f5-af1d-5f80-bdfe-6c2c922431c3",
+      "invoiceNumber": "INV-24",
+      "lineItems": [
+        {
+          "lineItemId": "58d1a053-3596-53b6-831b-0caa255c8b7f",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 24.1,
+          "lineItemTotalCost": 24.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.915,
+      "region": "NZ",
+      "id": "062088ab-39b1-5c89-a8f7-a615efbbb8df",
+      "invoiceNumber": "INV-26",
+      "lineItems": [
+        {
+          "lineItemId": "e1611883-5cd3-5015-bc62-b9f30c589337",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 26.1,
+          "lineItemTotalCost": 26.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 4.365,
+      "region": "NZ",
+      "id": "7f2d0904-eb9a-50db-a437-1865675bc4ce",
+      "invoiceNumber": "INV-29",
+      "lineItems": [
+        {
+          "lineItemId": "cced55ce-830e-50de-b4f4-a112e4b3aecd",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 29.1,
+          "lineItemTotalCost": 29.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 3.765,
+      "region": "NZ",
+      "id": "605c5ca4-4155-592c-9019-17e33ca0c752",
+      "invoiceNumber": "INV-25",
+      "lineItems": [
+        {
+          "lineItemId": "3d72fe79-9a1d-5231-840e-a3325acd2f88",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 25.1,
+          "lineItemTotalCost": 25.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 4.965,
+      "region": "NZ",
+      "id": "7c2d5a44-6df7-524f-8387-ffdfe211ac84",
+      "invoiceNumber": "INV-33",
+      "lineItems": [
+        {
+          "lineItemId": "4f3a3774-18c0-5fc1-aa50-db31b980a157",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 33.1,
+          "lineItemTotalCost": 33.1
+        }
+      ],
+      "status": "PAID",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    },
+    {
+      "taxAmount": 4.215,
+      "region": "NZ",
+      "id": "6120ea87-9d9b-569d-abac-7c2f7868f428",
+      "invoiceNumber": "INV-28",
+      "lineItems": [
+        {
+          "lineItemId": "7d0110e2-8b3e-5cf4-ae13-1d93f81f7ca1",
+          "description": "Supplies",
+          "quantity": 1,
+          "unitCost": 28.1,
+          "lineItemTotalCost": 28.1
+        }
+      ],
+      "status": "DRAFT",
+      "dueDateUtc": "2022-01-18T06:41:09.660Z",
+      "createdDateUtc": "2022-01-18T06:41:09.660Z",
+      "updatedDateUtc": "2022-01-18T06:41:09.660Z"
+    }
+  ]
+}
