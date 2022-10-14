@@ -1,4 +1,25 @@
-.app-wrapper {
+html {
+  overflow-y: scroll;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-color: #13b5ea;
+  padding: 120px;
+
+  svg {
+    width: 350px;
+    height: auto;
+    stroke: white;
+    fill: white;
+  }
+}
+
+.page-wrapper {
   max-width: 1000px;
   margin: auto;
 }
