@@ -8,7 +8,7 @@ function App() {
     <div className="app-wrapper">
       <Routes>
         <Route path="/" element={<InvoiceList />} />
-        <Route path="invoice/:invoiceId" element={<InvoiceDetails />}/>
+        <Route path="invoice" element={<InvoiceDetails />}/>
       </Routes>
     </div>
   );

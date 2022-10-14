@@ -1,5 +1,6 @@
 .invoice-list-items {
   list-style: none;
+  padding-inline-start: 10px;
 
   li {
     padding: 10px;
@@ -28,8 +29,8 @@
       flex-direction: row;
       align-items: center;
       
-      * {
-        padding: 0 15px;
+      & > * {
+        margin: 0 15px;
       }
     }
   }
@@ -38,26 +39,5 @@
 .invoice-list {
   width: 1000px;
   margin-top: 20px !important;
-}
-
-.invoice-heading-1 {
-  font-weight: bold;
-  font-size: x-large;
-  padding: 10px;
-  padding-left: 40px;
-}
-
-.invoice-status-badge {
-  font-weight: normal;
-  font-size: large;
-  border-radius: 5px;
-}
-
-.invoice-status-badge-paid {
-  background-color: #aee9cf;
-}
-
-.invoice-status-badge-draft {
-  background-color: #f0dbb4;
 }
 

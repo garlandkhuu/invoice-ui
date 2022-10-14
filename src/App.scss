@@ -2,3 +2,49 @@
   max-width: 1000px;
   margin: auto;
 }
+
+.invoice-status-badge {
+  font-weight: normal;
+  font-size: large;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+.invoice-status-badge-paid {
+  background-color: #aee9cf;
+}
+
+.invoice-status-badge-draft {
+  background-color: #fadda8;
+}
+
+.invoice-header {
+  font-weight: bold;
+  font-size: x-large;
+  padding: 10px;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  background: none;
+  outline: none;
+  border: none;
+
+  svg {
+    transition: all .1s ease-in-out;
+    transform: scaleX(1.5);
+    width: 35px;
+    height: 20px;
+  }
+
+  &:hover {
+    svg {
+      stroke: #13b5ea;
+      fill: #13b5ea;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.invoice-details-wrapper {
+  width: 1000px;
+  margin-top: 40px !important;
+}
+
+.invoice-details-item-table {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: right;
+    padding: 8px;
+  }
+
+  th {
+    font-weight: 700;
+    color: #4f4f4f  
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+
+  .item-label-name {
+    text-align: left;
+    width: 50%;
+  }
+
+  .item-label-other {
+    width: calc(50%/3);
+  }
+}
+
+.invoice-detail-heading-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0;
+  margin-bottom: 20px;
+
+  & > *:not(:first-child):not(:last-child) {
+    margin: 0 10px;
+  }
+}
+
+.invoice-detail-total-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  padding: 20px 0;
+
+  table {
+    border-collapse: collapse;
+    width: 33%;
+    margin-right: 8px;
+  }
+
+  tr {
+    td {
+      padding: 5px 0;
+    }
+
+    td:first-child {
+      text-align: left;
+      font-weight: 600;
+    }
+
+    td:last-child {
+      text-align: right;
+    }
+  }
+}
+
+.invoice-detail-total-row {
+  width: 100%;
+  text-align: right;
+  margin: 15px 0;
+}

@@ -1,13 +1,9 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom'
-import { Invoice } from '../../../ts/interfaces/invoice.interfaces';
+import { Invoice } from '../../../types/interfaces/invoice.interfaces';
 import calculateInvoice from '../../../utils/calculateInvoice';
 import formatCurrency from '../../../utils/formatCurrency';
-
-const statusBadgeStyleMap = {
-  'PAID': 'invoice-status-badge-paid',
-  'DRAFT': 'invoice-status-badge-draft',
-}
+import statusBadgeStyleMap from '../../../constants/statusBadgeStyleMap'
 
 interface InvoiceListItemProps {
   invoice: Invoice;
@@ -24,7 +20,7 @@ function InvoiceListItem({ invoice }: InvoiceListItemProps) {
   const navigate = useNavigate();
 
   return (
-    <li className="invoice-list-item" key={id} onClick={() => navigate(`/invoice/${id}`) }>
+    <li className="invoice-list-item" key={id} onClick={() => navigate(`/invoice?id=${id}`) }>
       <div className='invoice-list-item-section'>
         <div>{invoiceNumber}</div>
         <div className={'invoice-status-badge ' + statusBadgeStyleMap[status]}>{status}</div>

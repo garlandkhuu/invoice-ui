@@ -6,8 +6,8 @@ function InvoiceList() {
   const { invoices } = useInvoices();
 
   return (
-    <div className="invoice-list" style={{ margin: "auto" }}>
-      <div className="invoice-heading-1">Invoices</div>
+    <div className="invoice-list">
+      <div className="invoice-header">Invoices</div>
       <ul className="invoice-list-items">
         {invoices.map((invoice: any) => (
           <InvoiceListItem invoice={invoice} />

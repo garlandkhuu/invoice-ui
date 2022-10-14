@@ -1,4 +1,5 @@
-function formatCurrency(currency: number) {
+function formatCurrency(currency: number | undefined) {
+  if (!currency) return null;
   const dollarFormat = Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
