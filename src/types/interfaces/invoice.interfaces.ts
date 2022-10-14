@@ -12,7 +12,7 @@ export interface Invoice {
   updatedDateUtc: Date;
 };
 
-interface LineItem {
+export interface LineItem {
   lineItemId: string;
   description: string;
   quantity: number;

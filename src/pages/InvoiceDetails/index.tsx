@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from 'react-router-dom'
+import ItemTable from './components/ItemTable';
+import TotalTable from './components/TotalTable';
 import useInvoices from "../../hooks/useInvoices";
-import formatCurrency from '../../utils/formatCurrency';
-import calculateInvoice from '../../utils/calculateInvoice';
 import statusBadgeStyleMap from '../../constants/statusBadgeStyleMap'
 import { ReactComponent as BackArrowIcon } from '../../assets/back-arrow.svg';
 import './InvoiceDetails.scss';
@@ -17,8 +17,7 @@ function InvoiceDetails() {
   const {
     invoiceNumber,
     status = 'UNDEFINED',
-    lineItems = [],
-    taxAmount
+    lineItems = []
   } = invoice || {};
 
   const navigate = useNavigate();
@@ -36,42 +35,8 @@ function InvoiceDetails() {
           {status}
         </div>
       </div>
-      <div className='invoice-details-item-table'>
-        <table>
-          <tr>
-            <th className='item-label-name' />
-            <th className='item-label-other'>Quantity</th>
-            <th className='item-label-other'>Unit Cost</th>
-            <th className='item-label-other'>Total Cost</th>
-          </tr>
-          {lineItems.map(({ description, quantity, unitCost, lineItemTotalCost }) => (
-            <tr>
-              <td className='item-label-name'>{description}</td>
-              <td className='item-label-other'>{quantity}</td>
-              <td className='item-label-other'>{formatCurrency(unitCost)}</td>
-              <td className='item-label-other'>{formatCurrency(lineItemTotalCost)}</td>
-            </tr>
-          ))}
-          <p>
-          </p> 
-        </table>
-      </div>
-      <div className='invoice-detail-total-container'>
-        <table>
-          <tr>
-            <td>Total (Tax Exclusive)</td>
-            <td>{formatCurrency(calculateInvoice(invoice, { excludeTax: true }))}</td>
-          </tr>
-          <tr>
-            <td>Tax Amount</td>
-            <td>{formatCurrency(taxAmount)}</td>
-          </tr>
-          <tr>
-            <td>Total (Tax Inclusive)</td>
-            <td>{formatCurrency(calculateInvoice(invoice))}</td>
-          </tr>
-        </table>
-      </div>
+      <ItemTable lineItems={lineItems} />
+      <TotalTable invoice={invoice} />
     </div>
   ) : (
     <div className="invoice-details-wrapper">
