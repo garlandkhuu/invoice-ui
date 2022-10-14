@@ -11,6 +11,7 @@ import { Invoice } from "../types/interfaces/invoice.interfaces";
  */
 function useInvoices() {
   const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string>('');
   const [invoices, setInvoices] = useState<Array<Invoice>>(
     JSON.parse(localStorage.getItem('invoices') || '[]') // Default invoices to LS and fallback on empty array
   );
@@ -21,16 +22,20 @@ function useInvoices() {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3004/invoices")
+    try {
+      fetch("http://localhost:3004/invoices")
       .then((res) => res.json())
       .then((result) => {
         setInvoices(result);
         localStorage.setItem('invoices', JSON.stringify(result)); // Store invoices in LS for simple caching
         setLoading(false);
       });
+    } catch (e) {
+      if (e instanceof Error) setError(e.message);
+    }
   }, []);
 
-  return { invoices, setInvoices, loading, getInvoiceById };
+  return { invoices, setInvoices, getInvoiceById, loading, error };
 }
 
 export default useInvoices;
