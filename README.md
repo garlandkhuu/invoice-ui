@@ -27,14 +27,14 @@ Some assumptions I made:
 - Accessibility is not a requirement for now
 
 ## Future improvements I would make
-- *I would use style libraries such as:*
+- **I would use style libraries such as:**
   - [styled-components](https://styled-components.com/) – Styled components is useful if you take advantage of its versatility. It is a lot more bare and customizable than your typical style library which allows for big custom UI libraries. I feel like it is unnecessary if the app is small in scale and UI components are not modular and don't need to be reusable. I like styled-components since it tightly couples styles to a component and also makes reading the JSX much more comprehensible because of naming.
   - [styled-system](https://styled-system.com/) – Would have been nice to use something like styled-systems to determine breakpoints for mobile responsiveness, as well as being able to easily use their Box api instead of defining flex boxes with classes.
   - CSS libraries like Tailwind or Bootstrap would have also been nice as it can do what styled-system does but through classes. CSS libraries seem to be useful for smaller scale projects but classes can get overwhelming when you chain too many.
-- *I would implement proper unit testing with Jest and Enzyme for components* – setting up tests and testing components takes a lot of time (sometimes even more than creating the component) but it has big benefits to make sure everything works as intended.
-- *Consider different screen sizes* – since many webapps are now used on mobile and other devices it would be nice to consider designing and implementing proper layouts for different devices.
-- *Accessibility* – I would like to accomodate for users that use screen readers to make the app more accessible. Adding things like aria-labels, focus states, and semantic HTML all help screen readers comprehend the pages.
-- *Linter and code formatter* – If I had time I would implement a linter like ESLint and a code formatter like Prettier to keep the code style standardized and also find potential problems with the code.
-- *Other desired features* 
+- **I would implement proper unit testing with Jest and Enzyme for components** – setting up tests and testing components takes a lot of time (sometimes even more than creating the component) but it has big benefits to make sure everything works as intended.
+- **Consider different screen sizes** – since many webapps are now used on mobile and other devices it would be nice to consider designing and implementing proper layouts for different devices.
+- **Accessibility** – I would like to accomodate for users that use screen readers to make the app more accessible. Adding things like aria-labels, focus states, and semantic HTML all help screen readers comprehend the pages.
+- **Linter and code formatter** – If I had time I would implement a linter like ESLint and a code formatter like Prettier to keep the code style standardized and also find potential problems with the code.
+- **Other desired features** 
   - Sorting invoices
   - Downloading invoice as PDF or CSV
