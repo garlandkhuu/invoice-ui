@@ -4,7 +4,7 @@
 
   li {
     padding: 10px;
-    border: 2px solid;
+    border: 1px solid;
     margin-bottom: 20px;
 
     :first-child {
@@ -17,10 +17,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    transition: border-color .15s ease-in-out;
+    transition: all .1s ease-in-out;
+    box-shadow: 0;
     
     &:hover {
       border-color: #13b5ea;
+      box-shadow: 0 0 0 1px #13b5ea;
       cursor: pointer;
     }
 
